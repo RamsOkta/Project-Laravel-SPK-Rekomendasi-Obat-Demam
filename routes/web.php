@@ -24,14 +24,6 @@ Route::get('/page', function () {
     return view('page');
 });
 
-Route::get('/tanaman', function () {
-    return view('tanaman');
-});
-
-Route::get('/tanimodern', function () {
-    return view('tanimodern');
-});
-
 Route::get('/pupuk', function () {
     return view('pupuk');
 });
